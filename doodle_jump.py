@@ -38,7 +38,7 @@ oldplatforms = []
 pygame.init()
 pygame.mixer.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("doodle jump")
+pygame.display.set_caption("Doodle Jump")
 
 # проверка столкновения
 def check_collision(platforms, player_x, player_y, player_width, player_height, y_velocity):
